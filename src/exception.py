@@ -1,6 +1,7 @@
 import sys
 # conda activate  E:\Student-Performance-Indicator\venv
 
+
 def error_mssg_detail(error, error_detail: sys):
     # will give us error info
     _, _, exc_tb = error_detail.exc_info()
@@ -21,5 +22,3 @@ class CustomExceptionHandling(Exception):
 
     def __str__(self):
         return self.error_message
-        
-
