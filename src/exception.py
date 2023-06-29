@@ -1,5 +1,6 @@
 import sys
 # conda activate  E:\Student-Performance-Indicator\venv
+# source myvenv/Scripts/activate
 
 
 def error_mssg_detail(error, error_detail: sys):
