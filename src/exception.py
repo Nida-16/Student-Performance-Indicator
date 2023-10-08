@@ -1,5 +1,6 @@
 import sys
 # conda activate  E:\Student-Performance-Indicator\venv
+# py -3 -m src.components.data_ingestion   
 # source myvenv/Scripts/activate
 
 

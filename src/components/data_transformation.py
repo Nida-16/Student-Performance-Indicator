@@ -13,11 +13,9 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import OneHotEncoder
 
-
 @dataclass
 class DataTransformationConfig:
-    preprocessor_file_path = os.path.join('artifacts', 'preprocessor.pkl')
-
+    preprocessor_file_path = os.path.join(r'artifacts', r'preprocessor.pkl')
 
 class DataTransformation:
     def __init__(self):
@@ -99,7 +97,9 @@ class DataTransformation:
             logging.info("Preprocessor object saved")
 
             return (
-                train_arr, test_arr, self.data_transformation_config.preprocessor_file_path
+                train_arr,
+                test_arr,
+                self.data_transformation_config.preprocessor_file_path
             )
 
         except Exception as e:
