@@ -87,8 +87,8 @@ class DataTransformation:
 
             test_arr = np.c_[input_features_test_arr,
                              np.array(target_features_test_df)]
-            logging.info(
-                self.data_transformation_config.preprocessor_file_path)
+            # logging.info(
+            #     self.data_transformation_config.preprocessor_file_path)
             save_object(
                 file_path=self.data_transformation_config.preprocessor_file_path,
                 obj=preprocessor_obj
