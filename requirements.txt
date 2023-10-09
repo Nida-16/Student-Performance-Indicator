@@ -1,9 +1,13 @@
 catboost==1.2
-dill==0.2.7.1
-dill==0.3.6
-pandas==2.0.2
-pandas==1.4.4
-scikit_learn==1.2.2
-setuptools==67.8.0
+dill
+pandas
+scikit_learn
+setuptools
+numpy
+seaborn
+matplotlib
+catboost
+xgboost
+Flask
 # -e .   -> uncomment it at last to build packages after making project
 # pip install -r requirements.txt
